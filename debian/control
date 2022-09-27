@@ -1,0 +1,13 @@
+Source: ros-humble-rviz-2d-overlay-plugins
+Section: misc
+Priority: optional
+Maintainer: Team Spatzenhirn <team-spatzenhirn@uni-ulm.de>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-humble-ament-cmake, ros-humble-rviz-2d-overlay-msgs, ros-humble-rviz-common, ros-humble-rviz-ogre-vendor, ros-humble-rviz-rendering, ros-humble-std-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-rviz-2d-overlay-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-humble-rviz-2d-overlay-msgs, ros-humble-rviz-common, ros-humble-rviz-ogre-vendor, ros-humble-rviz-rendering, ros-humble-std-msgs, ros-humble-ros-workspace
+Description: RViz2 plugin for 2D overlays in the 3D view.
+ Mainly a ROS2 port of the JSK overlay plugin (https://github.com/jsk-ros-pkg/jsk_visualization).
