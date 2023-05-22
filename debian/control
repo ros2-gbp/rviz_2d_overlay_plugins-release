@@ -1,0 +1,12 @@
+Source: ros-iron-rviz-2d-overlay-msgs
+Section: misc
+Priority: optional
+Maintainer: Team Spatzenhirn <team-spatzenhirn@uni-ulm.de>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake, ros-iron-rosidl-default-generators, ros-iron-std-msgs, ros-iron-ros-workspace, ros-iron-rosidl-typesupport-fastrtps-c, ros-iron-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-rviz-2d-overlay-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-rosidl-default-runtime, ros-iron-std-msgs, ros-iron-ros-workspace
+Description: Messages describing 2D overlays for RVIZ, extracted/derived from the jsk_visualization ROS1 packege.
