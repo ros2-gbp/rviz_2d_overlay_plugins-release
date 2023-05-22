@@ -1,3 +1,4 @@
+release_repo_url: git@github.com:ros2-gbp/rviz_2d_overlay_plugins-release.git
 tracks:
   humble:
     actions:
