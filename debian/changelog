@@ -1,0 +1,43 @@
+ros-rolling-rviz-2d-overlay-plugins (1.3.0-2noble) noble; urgency=high
+
+  * Added string to overlay text converter node
+  * fix QT build warnings
+  * Contributors: Ernő Horváth, Jonas Otto, szepilot
+
+ -- Team Spatzenhirn <team-spatzenhirn@uni-ulm.de>  Thu, 18 May 2023 00:00:00 -0000
+
+ros-rolling-rviz-2d-overlay-plugins (1.2.1-2noble) noble; urgency=high
+
+  * Add package documentation using doxygen
+  * add rosdoc2 config
+  * add readme at package level
+  * Contributors: Jonas Otto, Dominik Authaler
+
+ -- Team Spatzenhirn <team-spatzenhirn@uni-ulm.de>  Fri, 30 Sep 2022 00:00:00 -0000
+
+ros-rolling-rviz-2d-overlay-plugins (1.2.0-2noble) noble; urgency=high
+
+  * Add missing dependencies to package.xml
+  * Fix various compiler-warnings (NFC)
+  * Rename package from overlay_rviz_plugins to rviz_2d_overlay_plugins
+  * Contributors: Jonas Otto
+
+ -- Team Spatzenhirn <team-spatzenhirn@uni-ulm.de>  Tue, 27 Sep 2022 00:00:00 -0000
+
+ros-rolling-rviz-2d-overlay-plugins (1.1.0-2noble) noble; urgency=high
+
+  * implemented reset
+  * port pie chart plugin to ROS2
+  * Contributors: Dominik, Jonas Otto
+
+ -- Team Spatzenhirn <team-spatzenhirn@uni-ulm.de>  Sun, 11 Sep 2022 00:00:00 -0000
+
+ros-rolling-rviz-2d-overlay-plugins (1.0.0-2noble) noble; urgency=high
+
+  * port to ros2
+  * add overlay plugin sources from jsk_visualization
+  * Contributors: Jonas Otto, Dominik Authaler
+
+ -- Team Spatzenhirn <team-spatzenhirn@uni-ulm.de>  Tue, 30 Aug 2022 00:00:00 -0000
+
+
