@@ -1,0 +1,34 @@
+ros-rolling-rviz-2d-overlay-msgs (1.3.0-2noble) noble; urgency=high
+
+  * Removed old position message fields
+  * Contributors: Dominik, Jonas Otto
+
+ -- Team Spatzenhirn <team-spatzenhirn@uni-ulm.de>  Thu, 18 May 2023 00:00:00 -0000
+
+ros-rolling-rviz-2d-overlay-msgs (1.2.1-2noble) noble; urgency=high
+
+
+
+ -- Team Spatzenhirn <team-spatzenhirn@uni-ulm.de>  Fri, 30 Sep 2022 00:00:00 -0000
+
+ros-rolling-rviz-2d-overlay-msgs (1.2.0-2noble) noble; urgency=high
+
+  * Rename package from overlay_rviz_msgs to rviz_2d_overlay_msgs
+  * Contributors: Jonas Otto
+
+ -- Team Spatzenhirn <team-spatzenhirn@uni-ulm.de>  Tue, 27 Sep 2022 00:00:00 -0000
+
+ros-rolling-rviz-2d-overlay-msgs (1.1.0-2noble) noble; urgency=high
+
+
+
+ -- Team Spatzenhirn <team-spatzenhirn@uni-ulm.de>  Sun, 11 Sep 2022 00:00:00 -0000
+
+ros-rolling-rviz-2d-overlay-msgs (1.0.0-2noble) noble; urgency=high
+
+  * Create OverlayText message (currently same as jsk_rviz_plugins)
+  * Contributors: Jonas Otto, Dominik Authaler
+
+ -- Team Spatzenhirn <team-spatzenhirn@uni-ulm.de>  Tue, 30 Aug 2022 00:00:00 -0000
+
+
