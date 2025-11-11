@@ -1,3 +1,28 @@
+## rviz_2d_overlay_plugins (humble) - 1.4.0-1
+
+The packages in the `rviz_2d_overlay_plugins` repository were released into the `humble` distro by running `/usr/bin/bloom-release --rosdistro humble rviz_2d_overlay_plugins --override-release-repository-push-url git@github.com:ros2-gbp/rviz_2d_overlay_plugins-release.git` on `Tue, 11 Nov 2025 15:35:06 -0000`
+
+These packages were released:
+- `rviz_2d_overlay_msgs`
+- `rviz_2d_overlay_plugins`
+
+Version of package(s) in repository `rviz_2d_overlay_plugins`:
+
+- upstream repository: https://github.com/teamspatzenhirn/rviz_2d_overlay_plugins.git
+- release repository: https://github.com/ros2-gbp/rviz_2d_overlay_plugins-release.git
+- rosdistro version: `1.3.1-1`
+- old version: `1.3.1-1`
+- new version: `1.4.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## rviz_2d_overlay_plugins (jazzy) - 1.4.0-1
 
 The packages in the `rviz_2d_overlay_plugins` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --rosdistro jazzy rviz_2d_overlay_plugins --override-release-repository-push-url git@github.com:ros2-gbp/rviz_2d_overlay_plugins-release.git` on `Tue, 11 Nov 2025 15:33:56 -0000`
