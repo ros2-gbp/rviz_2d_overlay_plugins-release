@@ -1,3 +1,28 @@
+## rviz_2d_overlay_plugins (jazzy) - 1.4.1-1
+
+The packages in the `rviz_2d_overlay_plugins` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --rosdistro jazzy --override-release-repository-push-url git@github.com:ros2-gbp/rviz_2d_overlay_plugins-release.git rviz_2d_overlay_plugins` on `Sat, 14 Mar 2026 09:04:59 -0000`
+
+These packages were released:
+- `rviz_2d_overlay_msgs`
+- `rviz_2d_overlay_plugins`
+
+Version of package(s) in repository `rviz_2d_overlay_plugins`:
+
+- upstream repository: https://github.com/teamspatzenhirn/rviz_2d_overlay_plugins.git
+- release repository: https://github.com/ros2-gbp/rviz_2d_overlay_plugins-release.git
+- rosdistro version: `1.4.0-1`
+- old version: `1.4.0-1`
+- new version: `1.4.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## rviz_2d_overlay_plugins (kilted) - 1.4.1-1
 
 The packages in the `rviz_2d_overlay_plugins` repository were released into the `kilted` distro by running `/usr/bin/bloom-release --rosdistro kilted --override-release-repository-push-url git@github.com:ros2-gbp/rviz_2d_overlay_plugins-release.git rviz_2d_overlay_plugins` on `Sat, 14 Mar 2026 09:02:16 -0000`
