@@ -1,0 +1,13 @@
+Source: ros-rolling-rviz-2d-overlay-plugins
+Section: misc
+Priority: optional
+Maintainer: Team Spatzenhirn <team-spatzenhirn@uni-ulm.de>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-rolling-ament-cmake, ros-rolling-rviz-2d-overlay-msgs, ros-rolling-rviz-common, ros-rolling-rviz-ogre-vendor, ros-rolling-rviz-rendering, ros-rolling-std-msgs, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-rviz-2d-overlay-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-rolling-rviz-2d-overlay-msgs, ros-rolling-rviz-common, ros-rolling-rviz-ogre-vendor, ros-rolling-rviz-rendering, ros-rolling-std-msgs, ros-rolling-ros-workspace
+Description: RViz2 plugin for 2D overlays in the 3D view.
+ Mainly a ROS2 port of the JSK overlay plugin (https://github.com/jsk-ros-pkg/jsk_visualization).
