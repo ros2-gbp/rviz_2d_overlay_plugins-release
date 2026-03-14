@@ -2,6 +2,18 @@
 Changelog for package rviz_2d_overlay_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.4.1 (2026-03-14)
+------------------
+* added missing QRegularExpression include for jazzy `#25 <https://github.com/teamspatzenhirn/rviz_2d_overlay_plugins/issues/25>`_
+* removed unused headers_to_moc var `#25 <https://github.com/teamspatzenhirn/rviz_2d_overlay_plugins/issues/25>`_
+* enable automoc `#25 <https://github.com/teamspatzenhirn/rviz_2d_overlay_plugins/issues/25>`_
+* Contributors: Henning Klatt
+
+1.4.0 (2025-11-11)
+------------------
+* Match include directory structure with ROS standards ([#23](https://github.com/teamspatzenhirn/rviz_2d_overlay_plugins/issues/23))
+* Contributors: Ryohsuke Mitsudome
+
 1.3.1 (2025-06-01)
 ------------------
 * Replace ament_target_dependencies with target_link_libraries ([#22](https://github.com/teamspatzenhirn/rviz_2d_overlay_plugins/issues/22))
