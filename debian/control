@@ -1,0 +1,13 @@
+Source: ros-lyrical-rviz-2d-overlay-plugins
+Section: misc
+Priority: optional
+Maintainer: Team Spatzenhirn <team-spatzenhirn@uni-ulm.de>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-lyrical-ament-cmake, ros-lyrical-rviz-2d-overlay-msgs, ros-lyrical-rviz-common, ros-lyrical-rviz-ogre-vendor, ros-lyrical-rviz-rendering, ros-lyrical-std-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rviz_2d_overlay_plugins/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-rviz-2d-overlay-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-lyrical-rviz-2d-overlay-msgs, ros-lyrical-rviz-common, ros-lyrical-rviz-ogre-vendor, ros-lyrical-rviz-rendering, ros-lyrical-std-msgs, ros-lyrical-ros-workspace
+Description: RViz2 plugin for 2D overlays in the 3D view.
+ Mainly a ROS2 port of the JSK overlay plugin (https://github.com/jsk-ros-pkg/jsk_visualization).
