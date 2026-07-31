@@ -2,6 +2,23 @@
 Changelog for package rviz_2d_overlay_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.4.2 (2026-07-31)
+------------------
+* Fix Qt Widgets linkage for display plugins (`#28 <https://github.com/teamspatzenhirn/rviz_2d_overlay_plugins/issues/28>`_)
+* Adaptions to change in method signature of update() (`#30 <https://github.com/teamspatzenhirn/rviz_2d_overlay_plugins/issues/30>`_)
+  Distro specific handling of the two different signatures of the update function
+* Merge pull request `#26 <https://github.com/teamspatzenhirn/rviz_2d_overlay_plugins/issues/26>`_ from teamspatzenhirn/moc-sources-qt6-compat
+  moc sources and Qt6 compatibility
+* add moc output to sources (for automoc) | create compatibility with Qt6 (and Qt5)
+* Contributors: Dominik, Henning Klatt, Maximilian Glumann, edward.ix
+
+1.4.1 (2026-03-14)
+------------------
+* added missing QRegularExpression include for jazzy `#25 <https://github.com/teamspatzenhirn/rviz_2d_overlay_plugins/issues/25>`_
+* removed unused headers_to_moc var `#25 <https://github.com/teamspatzenhirn/rviz_2d_overlay_plugins/issues/25>`_
+* enable automoc `#25 <https://github.com/teamspatzenhirn/rviz_2d_overlay_plugins/issues/25>`_
+* Contributors: Henning Klatt
+
 1.4.0 (2025-11-11)
 ------------------
 * Match include directory structure with ROS standards ([#23](https://github.com/teamspatzenhirn/rviz_2d_overlay_plugins/issues/23))
