@@ -6,26 +6,31 @@ find_package(ament_cmake REQUIRED)
 
 find_package(rviz_2d_overlay_msgs REQUIRED)
 
+find_package(Qt6 QUIET COMPONENTS Widgets)
+if (NOT Qt6_FOUND)
+    find_package(Qt5 QUIET COMPONENTS Widgets)
+	if (NOT Qt5_FOUND)
+		message( FATAL_ERROR "Neither QT6 nor QT5 was found!" )
+	endif()
+    set(qt_widgets_target Qt5::Widgets)
+else()
+    set(qt_widgets_target Qt6::Widgets)
+endif()
+
 find_package(rviz_common REQUIRED)
 find_package(rviz_rendering REQUIRED)
 find_package(rviz_ogre_vendor REQUIRED)
 find_package(std_msgs REQUIRED)
 
-set(
-        headers_to_moc
-        include/rviz_2d_overlay_plugins/overlay_text_display.hpp
-        include/rviz_2d_overlay_plugins/pie_chart_display.h
-)
-
-foreach (header "${headers_to_moc}")
-    qt5_wrap_cpp(display_moc_files "${header}")
-endforeach ()
+set(CMAKE_AUTOMOC ON)
 
 set(
         display_source_files
         src/overlay_text_display.cpp
         src/overlay_utils.cpp
         src/pie_chart_display.cpp
+        include/rviz_2d_overlay_plugins/overlay_text_display.hpp
+        include/rviz_2d_overlay_plugins/pie_chart_display.h
 )
 
 add_executable(string_to_overlay_text src/string_to_overlay_text.cpp)
@@ -37,7 +42,6 @@ target_link_libraries(string_to_overlay_text
 
 add_library(
         ${PROJECT_NAME} SHARED
-        ${display_moc_files}
         ${display_source_files}
 )
 
@@ -48,7 +52,6 @@ target_include_directories(
         ${PROJECT_NAME} PUBLIC
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
         $<INSTALL_INTERFACE:include>
-        ${Qt5Widgets_INCLUDE_DIRS}
         ${OpenCV_INCLUDE_DIRS}
 )
 
@@ -58,6 +61,7 @@ target_link_libraries(
         rviz_ogre_vendor::OgreOverlay
         rviz_common::rviz_common
         rviz_rendering::rviz_rendering
+        ${qt_widgets_target}
         ${std_msgs_TARGETS}
         ${rviz_2d_overlay_msgs_TARGETS}
 )
